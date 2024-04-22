@@ -1,1 +1,130 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultimate Tic-Tac-Toe Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="msg-container hide">
+    <p id="msg">Winner</p>
+    <button id="new-btn">New Game</button>
+  </div>
+  <main>
+    <h1>Ultimate Tic Tac Toe</h1>
+    <div class="ultimate-container">
+        <div class="small-board" data-board="0">
+            <!-- Smaller board 0 -->
+            <div class="small-box" data-cell="0-0"></div>
+            <div class="small-box" data-cell="0-1"></div>
+            <div class="small-box" data-cell="0-2"></div>
+            <div class="small-box" data-cell="1-0"></div>
+            <div class="small-box" data-cell="1-1"></div>
+            <div class="small-box" data-cell="1-2"></div>
+            <div class="small-box" data-cell="2-0"></div>
+            <div class="small-box" data-cell="2-1"></div>
+            <div class="small-box" data-cell="2-2"></div>
+        </div>       
+        <div class="small-board" data-board="1">
+            <!-- Smaller board 1 -->
+            <div class="small-box" data-cell="0-0"></div>
+            <div class="small-box" data-cell="0-1"></div>
+            <div class="small-box" data-cell="0-2"></div>
+            <div class="small-box" data-cell="1-0"></div>
+            <div class="small-box" data-cell="1-1"></div>
+            <div class="small-box" data-cell="1-2"></div>
+            <div class="small-box" data-cell="2-0"></div>
+            <div class="small-box" data-cell="2-1"></div>
+            <div class="small-box" data-cell="2-2"></div>           
+        </div>
+        <div class="small-board" data-board="2">
+            <!-- Smaller board 2 -->
+            <div class="small-box" data-cell="0-0"></div>
+            <div class="small-box" data-cell="0-1"></div>
+            <div class="small-box" data-cell="0-2"></div>
+            <div class="small-box" data-cell="1-0"></div>
+            <div class="small-box" data-cell="1-1"></div>
+            <div class="small-box" data-cell="1-2"></div>
+            <div class="small-box" data-cell="2-0"></div>
+            <div class="small-box" data-cell="2-1"></div>
+            <div class="small-box" data-cell="2-2"></div>           
+        </div>
+        <div class="small-board" data-board="3">
+            <!-- Smaller board 3 -->
+            <div class="small-box" data-cell="0-0"></div>
+            <div class="small-box" data-cell="0-1"></div>
+            <div class="small-box" data-cell="0-2"></div>
+            <div class="small-box" data-cell="1-0"></div>
+            <div class="small-box" data-cell="1-1"></div>
+            <div class="small-box" data-cell="1-2"></div>
+            <div class="small-box" data-cell="2-0"></div>
+            <div class="small-box" data-cell="2-1"></div>
+            <div class="small-box" data-cell="2-2"></div>           
+        </div>
+        <div class="small-board" data-board="4">
+            <!-- Smaller board 4 -->
+            <div class="small-box" data-cell="0-0"></div>
+            <div class="small-box" data-cell="0-1"></div>
+            <div class="small-box" data-cell="0-2"></div>
+            <div class="small-box" data-cell="1-0"></div>
+            <div class="small-box" data-cell="1-1"></div>
+            <div class="small-box" data-cell="1-2"></div>
+            <div class="small-box" data-cell="2-0"></div>
+            <div class="small-box" data-cell="2-1"></div>
+            <div class="small-box" data-cell="2-2"></div>           
+        </div>
+        <div class="small-board" data-board="5">
+            <!-- Smaller board 5 -->
+            <div class="small-box" data-cell="0-0"></div>
+            <div class="small-box" data-cell="0-1"></div>
+            <div class="small-box" data-cell="0-2"></div>
+            <div class="small-box" data-cell="1-0"></div>
+            <div class="small-box" data-cell="1-1"></div>
+            <div class="small-box" data-cell="1-2"></div>
+            <div class="small-box" data-cell="2-0"></div>
+            <div class="small-box" data-cell="2-1"></div>
+            <div class="small-box" data-cell="2-2"></div>           
+        </div>
+        <div class="small-board" data-board="6">
+            <!-- Smaller board 6 -->
+            <div class="small-box" data-cell="0-0"></div>
+            <div class="small-box" data-cell="0-1"></div>
+            <div class="small-box" data-cell="0-2"></div>
+            <div class="small-box" data-cell="1-0"></div>
+            <div class="small-box" data-cell="1-1"></div>
+            <div class="small-box" data-cell="1-2"></div>
+            <div class="small-box" data-cell="2-0"></div>
+            <div class="small-box" data-cell="2-1"></div>
+            <div class="small-box" data-cell="2-2"></div>           
+        </div>
+        <div class="small-board" data-board="7">
+            <!-- Smaller board 7 -->
+            <div class="small-box" data-cell="0-0"></div>
+            <div class="small-box" data-cell="0-1"></div>
+            <div class="small-box" data-cell="0-2"></div>
+            <div class="small-box" data-cell="1-0"></div>
+            <div class="small-box" data-cell="1-1"></div>
+            <div class="small-box" data-cell="1-2"></div>
+            <div class="small-box" data-cell="2-0"></div>
+            <div class="small-box" data-cell="2-1"></div>
+            <div class="small-box" data-cell="2-2"></div>           
+        </div>
+        <div class="small-board" data-board="8">
+            <!-- Smaller board 8 -->
+            <div class="small-box" data-cell="0-0"></div>
+            <div class="small-box" data-cell="0-1"></div>
+            <div class="small-box" data-cell="0-2"></div>
+            <div class="small-box" data-cell="1-0"></div>
+            <div class="small-box" data-cell="1-1"></div>
+            <div class="small-box" data-cell="1-2"></div>
+            <div class="small-box" data-cell="2-0"></div>
+            <div class="small-box" data-cell="2-1"></div>
+            <div class="small-box" data-cell="2-2"></div>           
+        </div>
+    </div>
+    <button id="reset-btn">Reset Game</button>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
