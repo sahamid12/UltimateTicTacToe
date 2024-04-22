@@ -1,6 +1,6 @@
 
 
-**Ultimate Tic-Tac-Toe Game**
+## Ultimate Tic-Tac-Toe Game**
 
 Welcome to the Ultimate Tic-Tac-Toe Game! This project implements a web-based version of the classic Tic-Tac-Toe game with a twist. In this version, there are nine smaller Tic-Tac-Toe boards, and winning on a small board grants you control of a position on the larger, ultimate board.
 
